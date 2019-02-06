@@ -1,0 +1,69 @@
+## Build generated
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+.build/
+
+# CocoaPods
+# Pods/
+
+# Carthage
+AppPortal/Carthage/Checkouts
+AppPortal/Carthage/Build/Mac
+AppPortal/Carthage/Build/tvOS
+
+# fastlane
+AppPortal/fastlane/report.xml
+AppPortal/fastlane/Preview.html
+AppPortal/fastlane/screenshots/**/*.png
+AppPortal/fastlane/test_output/
+
+# XCUITestSnapshot
+AppPortal/RedeUITests/Snapshots/FailureDiffs/
+
+## Git
+*.orig
+
+## Intellij IDE
+*.idea
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+.bundle/
+--system/
+
+# Thumbnails
+._*
+*.iml

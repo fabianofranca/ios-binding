@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		35758C0B2173CB1E005165A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C0A2173CB1E005165A8 /* AppDelegate.swift */; };
-		35758C0D2173CB1E005165A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C0C2173CB1E005165A8 /* ViewController.swift */; };
+		35758C0D2173CB1E005165A8 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C0C2173CB1E005165A8 /* SampleViewController.swift */; };
 		35758C102173CB1E005165A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35758C0E2173CB1E005165A8 /* Main.storyboard */; };
 		35758C122173CB20005165A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35758C112173CB20005165A8 /* Assets.xcassets */; };
 		35758C152173CB20005165A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35758C132173CB20005165A8 /* LaunchScreen.storyboard */; };
+		35758C1E2173CB72005165A8 /* dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C1D2173CB72005165A8 /* dynamic.swift */; };
+		35758C212173CC69005165A8 /* event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C202173CC69005165A8 /* event.swift */; };
+		35758C272173CD1D005165A8 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C222173CD1D005165A8 /* UIButton.swift */; };
+		35758C282173CD1D005165A8 /* bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C232173CD1D005165A8 /* bind.swift */; };
+		35758C292173CD1D005165A8 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C242173CD1D005165A8 /* UITextField.swift */; };
+		35758C2A2173CD1D005165A8 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C252173CD1D005165A8 /* UILabel.swift */; };
+		35758C2B2173CD1D005165A8 /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C262173CD1D005165A8 /* UISwitch.swift */; };
+		35758C2D2173CDCF005165A8 /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C2C2173CDCF005165A8 /* SampleViewModel.swift */; };
+		35758C2F2173DA20005165A8 /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C2E2173DA20005165A8 /* UISlider.swift */; };
+		35758C312173E2D8005165A8 /* UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C302173E2D8005165A8 /* UIProgressView.swift */; };
+		35758C3321740320005165A8 /* UIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C3221740320005165A8 /* UIStepper.swift */; };
+		35758C3521740C78005165A8 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758C3421740C78005165A8 /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		35758C072173CB1E005165A8 /* binding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = binding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35758C0A2173CB1E005165A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35758C0C2173CB1E005165A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35758C0C2173CB1E005165A8 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		35758C0F2173CB1E005165A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35758C112173CB20005165A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35758C142173CB20005165A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35758C162173CB20005165A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35758C1D2173CB72005165A8 /* dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic.swift; sourceTree = "<group>"; };
+		35758C202173CC69005165A8 /* event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = event.swift; sourceTree = "<group>"; };
+		35758C222173CD1D005165A8 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		35758C232173CD1D005165A8 /* bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bind.swift; sourceTree = "<group>"; };
+		35758C242173CD1D005165A8 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		35758C252173CD1D005165A8 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		35758C262173CD1D005165A8 /* UISwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISwitch.swift; sourceTree = "<group>"; };
+		35758C2C2173CDCF005165A8 /* SampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
+		35758C2E2173DA20005165A8 /* UISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISlider.swift; sourceTree = "<group>"; };
+		35758C302173E2D8005165A8 /* UIProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressView.swift; sourceTree = "<group>"; };
+		35758C3221740320005165A8 /* UIStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepper.swift; sourceTree = "<group>"; };
+		35758C3421740C78005165A8 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,42 @@
 		35758C092173CB1E005165A8 /* binding */ = {
 			isa = PBXGroup;
 			children = (
+				35758C1F2173CC4F005165A8 /* core */,
+				35758C1C2173CB54005165A8 /* bind */,
 				35758C0A2173CB1E005165A8 /* AppDelegate.swift */,
-				35758C0C2173CB1E005165A8 /* ViewController.swift */,
+				35758C0C2173CB1E005165A8 /* SampleViewController.swift */,
 				35758C0E2173CB1E005165A8 /* Main.storyboard */,
 				35758C112173CB20005165A8 /* Assets.xcassets */,
 				35758C132173CB20005165A8 /* LaunchScreen.storyboard */,
 				35758C162173CB20005165A8 /* Info.plist */,
+				35758C2C2173CDCF005165A8 /* SampleViewModel.swift */,
 			);
 			path = binding;
+			sourceTree = "<group>";
+		};
+		35758C1C2173CB54005165A8 /* bind */ = {
+			isa = PBXGroup;
+			children = (
+				35758C232173CD1D005165A8 /* bind.swift */,
+				35758C222173CD1D005165A8 /* UIButton.swift */,
+				35758C252173CD1D005165A8 /* UILabel.swift */,
+				35758C262173CD1D005165A8 /* UISwitch.swift */,
+				35758C242173CD1D005165A8 /* UITextField.swift */,
+				35758C2E2173DA20005165A8 /* UISlider.swift */,
+				35758C302173E2D8005165A8 /* UIProgressView.swift */,
+				35758C3221740320005165A8 /* UIStepper.swift */,
+				35758C3421740C78005165A8 /* UIImageView.swift */,
+			);
+			path = bind;
+			sourceTree = "<group>";
+		};
+		35758C1F2173CC4F005165A8 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				35758C1D2173CB72005165A8 /* dynamic.swift */,
+				35758C202173CC69005165A8 /* event.swift */,
+			);
+			path = core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +187,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35758C0D2173CB1E005165A8 /* ViewController.swift in Sources */,
+				35758C2B2173CD1D005165A8 /* UISwitch.swift in Sources */,
+				35758C2F2173DA20005165A8 /* UISlider.swift in Sources */,
+				35758C272173CD1D005165A8 /* UIButton.swift in Sources */,
+				35758C212173CC69005165A8 /* event.swift in Sources */,
+				35758C292173CD1D005165A8 /* UITextField.swift in Sources */,
+				35758C0D2173CB1E005165A8 /* SampleViewController.swift in Sources */,
+				35758C2D2173CDCF005165A8 /* SampleViewModel.swift in Sources */,
+				35758C1E2173CB72005165A8 /* dynamic.swift in Sources */,
+				35758C282173CD1D005165A8 /* bind.swift in Sources */,
+				35758C312173E2D8005165A8 /* UIProgressView.swift in Sources */,
+				35758C2A2173CD1D005165A8 /* UILabel.swift in Sources */,
 				35758C0B2173CB1E005165A8 /* AppDelegate.swift in Sources */,
+				35758C3321740320005165A8 /* UIStepper.swift in Sources */,
+				35758C3521740C78005165A8 /* UIImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
